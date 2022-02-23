@@ -1,0 +1,6 @@
+set mouse=
+set ttymouse=
+set paste
+set noai
+syntax on
+colorscheme industry

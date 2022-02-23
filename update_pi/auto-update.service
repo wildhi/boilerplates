@@ -1,0 +1,7 @@
+[Unit]
+Description=Auto Update Host Service
+
+[Service]
+Type=simple
+ExecStart=/home/marius/update.sh
+User=root

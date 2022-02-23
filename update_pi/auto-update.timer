@@ -1,0 +1,9 @@
+[Unit]
+Description=Auto Update Timer
+
+[Timer]
+OnCalendar=Sun *-*-* 22:00:00
+Unit=auto-update.service
+
+[Install]
+WantedBy=multi-user.target
