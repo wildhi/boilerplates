@@ -3,5 +3,5 @@ Description=Auto Update Host Service
 
 [Service]
 Type=simple
-ExecStart=/home/marius/update.sh
+ExecStart=/PATH_TO_UPDATE_SCRIPT/
 User=root
